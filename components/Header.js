@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 import React from 'react'
 import { SearchIcons } from "@heroicons/react/outline";
+=======
+
+import React from 'react'
+import FaSearchIcon  from "react-icons/fa";
+>>>>>>> c4f699a7f8fcf356d975780508b939c17b6c3cee
 import Image from 'next/image';
 
 export default function Header() {
