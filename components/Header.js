@@ -28,6 +28,8 @@ export default function Header() {
                     { /* Right */}
                     <h1>Right sides</h1>
                 </div>
+            </div>
+         </div>
                 )
 
 }
