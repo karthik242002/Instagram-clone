@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+import {Image} from 'next/image'
+>>>>>>> 6776be62c63afde3c4a0d9a3152c66bfcacf162f
 import React from 'react'
 import { FaSearchIcon } from "react-icons/fa";
 import Image from 'next/image';
