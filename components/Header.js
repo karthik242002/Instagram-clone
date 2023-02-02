@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-import React from 'react'
-import { SearchIcons } from "@heroicons/react/outline";
-=======
-
-import React from 'react'
-import FaSearchIcon  from "react-icons/fa";
->>>>>>> c4f699a7f8fcf356d975780508b939c17b6c3cee
 import Image from 'next/image';
+import React from 'react';
+import { FaSearch } from 'react-icons/fa';
 
 export default function Header() {
     return (
@@ -27,15 +21,18 @@ export default function Header() {
 
             </div>
             { /* Middle */}
-            <div className=" ">
-                <div className="">
-                    <SearchIcons className="h-5" />
 
-                    { /* Right */}
-                    <h1>Right sides</h1>
+            <div className="relative mt-1">
+                <div className="absolute top-2 left-2">
+                    <FaSearch className="h-5 text-gray-500" />
                 </div>
+                <input type="text" placeholder="Search" className='bg-gray-50 pl-10 border-gray-500 text-sm focus:ring-black focus:border-black rounded-md' />
             </div>
+            { /* Right */}
+            <h1>Right sides</h1>
+
         </div>
+
     )
 
 }
