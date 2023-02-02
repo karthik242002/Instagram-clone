@@ -1,4 +1,5 @@
 import React from 'react'
+import Post from './Posts'
 import Stories from './Stories'
 
 export default function Feed() {
@@ -9,6 +10,7 @@ export default function Feed() {
                 <Stories />
 
                 { /* Posts */}
+                <Post />
 
             </section>
             <section>
