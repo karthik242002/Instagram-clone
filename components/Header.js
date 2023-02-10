@@ -3,6 +3,7 @@ import React from 'react';
 import { FaSearch, FaPlusCircle } from 'react-icons/fa';
 import { FaHome } from 'react-icons/fa';
 export default function Header() {
+
     return (
         <div className='shadow-sm border-b sticky top-0 bg-white z-30'>
             <div className="flex items-center justify-between max-w-6xl mx-4 xl:mx-auto">
