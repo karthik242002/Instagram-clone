@@ -3,6 +3,7 @@ import "minifaker/locales/en";
 import minifaker from 'minifaker';
 import Story from './Story';
 
+
 export default function Stories() {
     const [storyUsers, setStoryUsers] = useState([])
     useEffect(() => {
@@ -23,3 +24,4 @@ export default function Stories() {
     </div>
 
 }
+
