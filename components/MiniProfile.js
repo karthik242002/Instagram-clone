@@ -12,4 +12,5 @@ export default function MiniProfile() {
             <button className="font-semibold text-blue-400 text-sm">Sign out</button>
         </div>
     )
+
 }
