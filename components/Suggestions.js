@@ -41,6 +41,7 @@ export default function Suggestions() {
                     </button>
                 </div>
             ))}
+
         </div>
     );
 }
