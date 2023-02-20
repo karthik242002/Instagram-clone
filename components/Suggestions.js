@@ -39,6 +39,7 @@ export default function Suggestions() {
                     <button className="font-semibold text-blue-400 text-sm">
                         Follow
                     </button>
+                    
                 </div>
             ))}
 
