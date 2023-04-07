@@ -34,7 +34,7 @@ export default function Header() {
                 <div className='flex space-x-4 items-center'>
                     <FaHome className='hidden md:inline-flex h-6 cursor-pointer hover:scale-125 transition-transform duration-200 ease-out' />
                     <FaPlusCircle className='h-6 cursor-pointer hover:scale-125 transition-transform duration-200 ease-out' />
-                    <img src="https://media.licdn.com/dms/image/C5603AQGMJtZjoVzOlg/profile-displayphoto-shrink_400_400/0/1663685545626?e=1680739200&v=beta&t=L9oFBbnKYkniIXyu2TSi7sLOSjVv8kHsMb_wUQ_bR3E" alt='user-image' className='h-10 rounded-full cursor-pointer' />
+                    <img src="https://media.licdn.com/dms/image/C5603AQGMJtZjoVzOlg/profile-displayphoto-shrink_400_400/0/1663685545626?e=1686182400&v=beta&t=7KrCDCxfCNAwWC_-JyT7w0YtipK7qdCbNu85zByoeFw" alt='user-image' className='h-10 rounded-full cursor-pointer' />
 
                 </div>
 
